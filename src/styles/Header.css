@@ -1,0 +1,71 @@
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(191, 222, 235);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.diagonal-div {
+   width: 225px;
+   height: 80px;
+   background-color: #ffffff;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   
+  }
+  .diagonal-div::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 80px 100px;
+    border-color: transparent transparent transparent #ffffff;
+}
+  .diagonal-div img{
+    width: 100px;
+    height: 80px;
+  }
+  .right-header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+  }
+  .company-name{
+    height: 30px;
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    
+  }
+  .company-name span{
+    font-size: small;
+  }
+  .image-container{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: #000;
+  }
+  .image-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%; 
+  }
+  .icon-container{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    background-color: white;
+    margin-left: 2px;
+  }

@@ -1,0 +1,43 @@
+
+.offerCard-container {
+    padding: 20px;
+    box-shadow: 0 5px 20px #e6dfd0;
+    border-radius: 5px;
+    padding: 20px;
+}
+.offerCard-container a{
+    text-decoration-color: black;
+    color: black;
+    display: inline-block;
+    align-items: center;  
+}
+.offerCard-container a span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.priceText{
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+.basic-btn {
+    padding: 3px 8px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: small;
+    font-weight: 600;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.getStart-container {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+

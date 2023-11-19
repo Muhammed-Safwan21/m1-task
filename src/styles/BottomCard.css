@@ -1,0 +1,6 @@
+.bottomCard-container{
+    box-shadow:0 5px 20px #e6dfd0;
+    padding:20px 15px;
+    border-radius: 5px;
+    min-height: 240px;
+}
